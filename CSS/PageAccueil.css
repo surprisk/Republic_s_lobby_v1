@@ -1,0 +1,124 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html a{
+	color: white;
+	text-decoration: none;
+}
+
+body {
+	margin:0;
+	padding:0;
+}
+
+#background1{
+	width:100%;
+	height: 100%;
+	background-image: url('../wallpaper.png');
+	background-position: center;
+	background-size: cover;
+	z-index: 1;
+}
+
+.conteneur-flex-row{
+	display: flex;
+	flex-direction: row;
+}
+
+#Title-PageAccueil {
+	margin: 60px auto;
+	padding: auto;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	animation: 5s fondu;
+}
+
+#conteneur-PageAccueil{
+	height: 190px;
+	width : 590px;
+	margin: auto;
+	animation: 1.5s fondu;
+}
+
+#bouton-PageAccueil{
+	text-align: center;
+	font-family: 'Trebuchet MS', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	border-style: solid;
+	border-width: 5px;
+	background-color: #808B96;
+	border-color: #273746;
+	margin: auto;
+	border-radius: 40px;
+	height: 60px;
+	width: 250px;
+	cursor: pointer;
+	opacity: 0.9;
+	font-size: 20px;
+	transition: 0.4s linear;
+	animation: 5s fondu;
+}
+
+#bouton-PageAccueil p{
+	margin: 18px auto;
+}
+
+#bouton-PageAccueil:hover{
+	color: #D5F5E3;
+	background-color: #58D68D;
+	border-color: #28B463;
+}
+
+.absolute{
+	position: absolute;
+}
+
+.relative{
+	position: relative;
+}
+
+.hr{
+	border-bottom-style: solid;
+	border-color: white;
+	margin: auto;
+	height: 125px;
+	width: 50%;
+	border-width: 1px;
+}
+
+
+#absolute-Boutons{
+	margin: auto;
+	height: 200px;
+	width : 600px;
+	margin-top: -100px;
+}
+
+#absolute-Title{
+	margin: 15% auto;
+	height: 100px;
+	width : 900px;
+}
+
+@keyframes fondu { /* Donne un effet fondu à la div durant l'animation */
+	from {opacity: 0}
+	to {opacity: 1}
+}
+
+@keyframes gauche { /* Fait entrer la div par la gauche */
+	from {width: 0%}
+	to {width: 100%}
+}
+
+@keyframes tombe { /* Fait entrer la div par le haut */
+	from {margin-top: -50px;}
+	to {margin-top: 60px;}
+}
+
+@keyframes fonduTombe { /* Fait entrer la div par le haut avec fondu */
+	from {margin-top: -50px; opacity:0}
+	to {margin-top: 60px; opacity:1}
+}

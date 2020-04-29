@@ -1,0 +1,30 @@
+#postuler{
+	margin-top: 3380px;
+	z-index:97;
+	background-color: #283747;
+	height: 1100px;
+	width: 100%;
+	opacity: 0.9
+}
+
+#conteneur-form{
+	background-color: #283747;
+	padding: 0 15% 0;
+	font-family: 'Trebuchet MS';
+	font-size: 20px;
+	color: white;
+	margin: 5%;
+}
+
+#conteneur-form input, #conteneur-form textarea{
+	border-width:1;
+	border-style: solid;
+	border-color: #1C2833;
+	background-color: white;
+	width: 100%;
+	outline:none;
+}
+
+#conteneur-form textarea{
+	height: 200px;
+}

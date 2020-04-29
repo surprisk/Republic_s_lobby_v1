@@ -1,0 +1,189 @@
+
+<!-- DESIGNED BY SURPRISK AKA BRSAMUEL -->
+
+<html>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="CSS/header.css">
+	<link rel="stylesheet" type="text/css" href="CSS/PageAccueil.css">
+	<link rel="stylesheet" type="text/css" href="CSS/rejoindre.css">
+	<link rel="stylesheet" type="text/css" href="CSS/clipboard.css">
+	<link rel="stylesheet" type="text/css" href="CSS/postuler.css">
+	<link rel="stylesheet" type="text/css" href="CSS/informations.css">
+	<link rel="stylesheet" type="text/css" href="CSS/contactBox.css">
+	<link rel="stylesheet" type="text/css" href="CSS/donation.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Da&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="CSS/police.css">
+	
+	<script type="text/javascript" src="js/copy2clipboard.js"></script>
+	<script type="text/javascript" src="js/visibility.js"></script>
+	
+	<link rel="icon" type="image/png" href="IMG/icon.png" />
+	
+	<head>
+	<title>Republic's Lobby</title>
+		<div id="toppage"></div>
+		<div ID="header"> 
+			<a href="#toppage"><p ID="headerLetter"> R </p></a>
+			<ul id='menu'>
+				<li><a href="#rejoindre"><i class="fas fa-sign-in-alt"></i> Nous rejoindre</a></li>
+				<li><a href="#informations"><i class="fas fa-file-contract"></i> Les informations</a></li>
+				<li onclick="visibility()"><a><i class="fas fa-envelope"></i> Nous contacter</a></li>
+				<li><a href="#informations"><i class="fas fa-user-plus"></i></i> Postuler</a></li>
+				<li><a href="#donation"><i class="fas fa-hand-holding-usd"></i> Donations</a></li>
+			</ul>
+		</div>
+		<div id="copiedBarre">Lien Discord copié avec succès !</div>
+	</head>
+	<body>
+		<div ID="background1" style="position: fixed;">
+			<div class="relative" ID="absolute-Title">
+				<div class="conteneur-flex-row" ID="Title-PageAccueil">
+					<div style="border-style: solid; border-radius: 100%; width: 100px; height: 100px;">
+						<img src="IMG/Avatar.jpg" style="width:100%; height:100%; border-radius: 100%"/>
+					</div>
+					<div style="width: 75%; color: #fff; font-family:'Trebuchet MS', sans-serif; font-size: 60px; margin-bottom: 10px; margin-top: -5%">
+						<p> <i class="fab fa-discord"></i> Le Républic's Lobby </p>
+					</div>
+				</div>
+			</div>
+		<!-- Centrage des boutons -->
+			<div class="relative" ID="absolute-Boutons">
+				<div class="conteneur-flex-row" ID="conteneur-PageAccueil">
+					<div ID="bouton-PageAccueil">
+						<a href="#rejoindre"><p><i class="fab fa-discord"></i> Rejoindre </p></a>
+					</div>
+					<div ID="bouton-PageAccueil">
+						<p onclick="visibility()"><i class="far fa-address-book"></i> Nous contacter </p>
+					</div>
+				</div>
+			</div>
+		<!-- Fin centrage des boutons -->
+		</div>
+		<!-- Rejoindre -->
+		<div class="absolute" ID="rejoindre">
+			<div class="hr">
+				<p ID="Title-rejoindre"> Lien du discord </p>
+			</div>
+			<div ID="copyBar" class="conteneur-flex-row">
+				<div ID="dsLink">
+					<input type="text" value="https://discord.gg/yehtqQz" ID="copy">
+				</div>
+				<div ID="copySubmit">
+					<button onclick="copyClipboard()">Copier</button>
+				</div>
+			</div>
+		</div>
+		<!-- Fin Rejoindre -->
+		<!-- Informations -->
+		<div class="absolute" ID="informations">
+			<div class="hr">
+				<p ID="Title-rejoindre"> Informations </p>
+			</div>
+			<div ID="conteneur-info">
+				<div>
+					<p class="infoTitle" > Les regles </p>
+					<p> <span style="opacity: 0.8; background-color: #E74C3C;"> En utilisant le Discord Républic's Lobby, vous vous engagez à respecter les règles inscrites ci-dessous : </span>
+					</p>
+					<p style="margin-top:4%;"> <span> 1. La répétition abusive (spam)</span> dans les canaux textuels n’est pas tolérée. Qu’il s’agisse de simples messages ou d’images, ou l’utilisation abusive du système de mention discord par @ ou tout autre rôle.<br>
+					<br>
+					<span style=> 2. Le partage de tout autre Discord sans accord n’est pas accepté.</span> Vous n’êtes pas ici pour faire votre publicité. Par extension et ce, sans que cette liste ne soit exhaustive, toute autre forme de publicité est interdite à moins que vous n’ayez reçu une autorisation d'un @Maître Jedi.<br>
+					<br>
+					<span> 3. Tout dévoilement de scénario d’oeuvre cinématographique ou littéraire, bd, mangas (spoiler) est prohibé.</span><br>
+					<br>
+					<span> 4. Aucun sujet n'est formellement prohibé</span> sur le serveur tant qu'il n'incite pas à la haine ou n'engendre pas de quelconques débordements.<br>
+					<br>
+					<span>-► En cas de non respect de ces règles</span> vous vous exposerez donc à des sanctions pouvant aller jusqu'au <span style="opacity: 0.8; background-color: #E74C3C;">bannissement définitif</span> de votre compte sur le Discord. </p>
+				</div>
+				<div>
+					<p class="infoTitle" > Les fondateurs </p>
+					<div class="conteneur-flex-row" ID="photoFonda">
+						<div ID="cadreFonda">
+							<p> SurprisK#4499 </p>
+							<img class="imgFonda" src="IMG/SurprisK.jpg"/>
+						</div>
+						<div ID="cadreFonda">
+							<p> Yummygamer#6200 </p>
+							<img class="imgFonda" src="IMG/Yummygamer.jpg"/>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Fin Informations -->
+		<!-- Postuler -->
+		<div class='absolute' ID='postuler'>
+			<div class="hr">
+				<p ID="Title-rejoindre"> Postuler </p>
+			</div>
+			<div id='conteneur-form'>
+				<form action='php/application.php' method='post'>
+					<br><br>
+					Prénom :
+					<br>
+					<input type='text' name='firstName'/>
+					<br><br>
+					Nom : 
+					<br>
+					<input type='text' name='secondName'/>
+					<br><br>
+					Pseudo Discord :
+					<br>
+					<input type='text' name='discordName'/>
+					<br><br>
+					eM@il :
+					<br>
+					<input type='text' name='email'/>
+					<br><br>
+					Date de Naissance :
+					<br>
+					<input type='text' name='bDate'/>
+					<br><br>
+					Objet :
+					<br>
+					<input type='text' name='subject'/>
+					<br><br>
+					Motivations (Brèves mais efficaces !) :
+					<br>
+					<textarea name='motivation'></textarea>
+					<br><br>
+					<button type='submit' style='background-color: white; border-color: grey; border-style: solid; underline: none'>Envoyer !</button>
+				</form>
+			</div>
+		</div>
+		<!-- Fin Postuler -->
+		<!-- Donation -->
+		<div class="absolute" ID="donation">
+			<div class="hr">
+				<p ID="Title-rejoindre"> Donations </p>
+			</div>
+			<form style='margin-top: 5%' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick" />
+			<input type="hidden" name="hosted_button_id" value="FEZRN686A8Z9E" />
+			<input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Bouton Faites un don avec PayPal" />
+			<img alt="" border="0" src="https://www.paypal.com/fr_FR/i/scr/pixel.gif" width="1" height="1" />
+			</form>
+		</div>
+		<!-- Fin Donation -->
+		<!-- FICHE CONTACT A METTRE A LA FIN -->
+		<div ID="contactBox" onclick="visibility()">
+			<p> Contact <p>
+		</div>
+		<div id="contact"> 
+			<div id="barreContact">
+				<i id="cross" class="fas fa-times" onclick="visibility()"></i>
+			</div>
+			<div id="formContact">
+				<form method="POST" action="php/request.php">
+					<p> Votre pseudo discord : </p>
+					<input class="textContact" maxlength="100" type="text" name="name"/>
+					<p> Message </p>
+					<textarea class="textareaContact" name="desc"></textarea>
+					<div id="buttonContact" style="margin: auto; margin-top: 22px; border-style: solid; border-width: 2px; border-color: 1C2833; background-color: grey; font-family: Sketch; font-size: 10px; height: 30px; width: 130px;"><button style="outline:none; height: 100%; width: 100%; text-align: center; border-style: none; background-color: transparent; cursor: pointer; font-family: 'trebuchet ms'; font-size: 15px; color: white;" type="submit" name="valider" value="Valider">Valider</button></div>
+				</form>
+			</div>
+		</div>
+		<!-- FIN FICHE CONTACT -->
+	</body>
+</html>

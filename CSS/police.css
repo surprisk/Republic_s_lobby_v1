@@ -1,0 +1,36 @@
+@font-face {
+	font-family: "evergreen";
+	/*font-weight: bold;*/
+	src: url('../police/Evergreen.otf');
+}
+
+@font-face {
+	font-family: "rustico";
+	font-weight: bold;
+	src: url('../police/Rustico-Regular.otf');
+}
+
+@font-face {
+	font-family: "Young Wild";
+	font-weight: bold;
+	src: url('../police/WildYouth-Regular- new.ttf');
+}
+
+@font-face {
+	font-family: "Richie Brusher";
+	font-weight: bold;
+	src: url('../police/Richie Brusher.ttf');
+}
+
+@font-face {
+	font-family: "sketch";
+	font-weight: bold;
+	src: url('../police/Sketch.ttf');
+}
+
+@font-face {
+	font-family: 'Baloo Da', cursive;
+	src: url('https://fonts.googleapis.com/css?family=Baloo+Da&display=swap');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap'); /* font-family: 'Oswald', sans-serif; */

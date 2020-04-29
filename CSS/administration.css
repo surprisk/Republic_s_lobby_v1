@@ -1,0 +1,67 @@
+body{
+	margin:0;
+	padding:0;
+	background-color: #2E4053;
+	font-family: 'Baloo Da', cursive;
+}
+
+#request{
+	background-color: white;
+	width: 1000px;
+	margin: 200px auto;
+}
+
+#tabRequest{
+	padding: 10px;
+	text-align: center;
+}
+
+#tabRequest td{
+	width: 3%;
+}
+
+#delAllButton{
+	background-color: red;
+	border-width: 0;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	cursor: pointer;
+	font-family: 'Baloo Da', cursive;
+}
+
+#deconnectionButton{
+	background-color: red;
+	padding: 5px;
+	border-style: none;
+	color: white;
+	font-family: 'trebuchet ms';
+	font-size: 15px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+#deconnectionButton:hover{
+	opacity: 0.7;
+	color: black;
+	background-color: white;
+	cursor: pointer;
+}
+
+.button{
+	display: inline-block;
+	border-radius: 20px;
+	padding: 5px;
+	width: 50px;
+}
+
+.button button{
+	background-color:  transparent;
+	border-width: 0;
+	cursor: pointer;
+}
+
+.white{
+	color: white;
+}

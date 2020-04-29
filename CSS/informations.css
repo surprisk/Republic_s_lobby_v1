@@ -1,0 +1,118 @@
+.infoTitle{
+	color: white;
+	font-size: 50px;
+	font-family: Sketch;
+	margin-top: 10%;
+}
+
+#informations{
+	width: 100%;
+	height: 1700px;
+	background-color: #566573;
+	z-index:97;
+	margin-top: 1680px;
+	opacity: 0.9
+}
+
+/* @media screen and (max-width: 1720px){ */
+	/* #informations{ */
+		/* width: 100%; */
+		/* height: 1700px; */
+		/* background-color: #566573; */
+		/* z-index:97; */
+		/* margin-top: 1580px; */
+		/* opacity: 0.9 */
+	/* } */
+/* } */
+
+/* @media screen and (max-width: 1520px){ */
+	/* #informations{ */
+		/* width: 100%; */
+		/* height: 1700px; */
+		/* background-color: #566573; */
+		/* z-index:97; */
+		/* margin-top: 1480px; */
+		/* opacity: 0.9 */
+	/* } */
+/* } */
+
+/* @media screen and (max-width: 1320px){ */
+	/* #informations{ */
+		/* width: 100%; */
+		/* height: 1700px; */
+		/* background-color: #566573; */
+		/* z-index:97; */
+		/* margin-top: 1380px; */
+		/* opacity: 0.9 */
+	/* } */
+/* } */
+
+/* @media screen and (max-width: 1120px){ */
+	/* #informations{ */
+		/* width: 100%; */
+		/* height: 1700px; */
+		/* background-color: #566573; */
+		/* z-index:97; */
+		/* margin-top: 1280px; */
+		/* opacity: 0.9 */
+	/* } */
+/* } */
+
+/* @media screen and (max-width: 920px){ */
+	/* #informations{ */
+		/* width: 100%; */
+		/* height: 1700px; */
+		/* background-color: #566573; */
+		/* z-index:97; */
+		/* margin-top: 1180px; */
+		/* opacity: 0.9 */
+	/* } */
+/* } */
+
+#conteneur-info{
+	width: 80%;
+	margin: auto;
+	font-family: 'Baloo Da', cursive;
+	/*font-family: 'Oswald', sans-serif;*/
+	text-align: justify;
+	font-size: 20px;
+}
+
+#conteneur-info span{
+	background-color: grey;
+	border-color: black;
+	border-width: 2;
+}
+
+#photoFonda{
+	text-align: center;
+}
+
+#cadreFonda{
+	margin: 20px;
+	width: 100%;
+	height: 300px;
+	background-color: grey;
+	padding: 10px;
+	cursor: pointer;
+	transition: 0.4s ease-in-out;
+}
+
+.imgFonda{
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	border-style: solid;
+	border-color: white;
+	animation: 0.5s ease-in-out;
+}
+
+#cadreFonda:hover{
+	transform: scale(1.07);
+	border-style: solid;
+	border-color: white;
+}
+
+#cadreFonda:hover .imgFonda{
+	border-color: #566573;
+}
